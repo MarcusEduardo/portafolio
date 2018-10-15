@@ -29,9 +29,9 @@ public class ApplicationTests {
 		logger.info("Se realiza prueba de creacion de usuario...");
 		
 		Usuario usuario = new Usuario();
-		usuario.setId(1);
-		usuario.setNombre("marcos");
-		usuario.setContrasenia("marcos123");
+		usuario.setId(3);
+		usuario.setNombre("Guareke");
+		usuario.setContrasenia("guarac123");
 		
 		Long id = (Long) usuarioDao.save(usuario);
 		
